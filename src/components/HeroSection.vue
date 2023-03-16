@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-hidden bg-white py-24 sm:py-32">
+  <div class="overflow-hidden bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:pr-8 lg:pt-4">
@@ -34,7 +34,7 @@
 
           </div>
         </div>
-        <img src="https://images.pexels.com/photos/4350099/pexels-photo-4350099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Product screenshot" class="w-[32rem] max-w-none rounded-md shadow-xl ring-1 ring-gray-400/10 sm:w-[48rem] md:-ml-4 lg:-ml-0" width="1200" height="800" />
+        <img src="../assets/img1.png" alt="Product screenshot" class="w-[32rem] max-w-none rounded-md ring-1 ring-gray-400/10 sm:w-[48rem] md:-ml-4 lg:-ml-0" width="1200" height="800" />
       </div>
     </div>
   </div>
