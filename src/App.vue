@@ -1,16 +1,18 @@
 <template>
-  <navbar-component />>
+  <navbar-component />
+  <hero-section />
 </template>
 
 <script>
-import NavbarComponent from './components/NavbarComponent.vue'
+import NavbarComponent from './components/NavbarComponent.vue';
+import HeroSection from './components/HeroSection.vue';
 
 
 export default {
   name: 'App',
   components: {
-    NavbarComponent
-
+    NavbarComponent,
+    HeroSection,
   }
 }
 </script>
