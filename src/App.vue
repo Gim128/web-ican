@@ -1,22 +1,21 @@
 <template>
-  <navbar-component />
-  <hero-section />
-  <hero-section-two />
+
+  <div id="nav">
+    <router-view></router-view>
+  </div>
+  
 </template>
 
 <script>
-import HeroSection from './components/HeroSection.vue';
-import HeroSectionTwo from './components/HeroSectionTwo.vue';
-import NavbarComponent from './components/NavbarComponent.vue';
+
+
 
 
 
 export default {
   name: 'App',
   components: {
-    NavbarComponent,
-    HeroSection,
-    HeroSectionTwo
+    
 }
 }
 </script>
