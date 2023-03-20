@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-row bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900">
+    <div class="flex flex-row bg-gradient-to-t from-blue-500 to-blue-600">
         <div class="basis-1/2">
 
             <div class="py-24 overflow-hidden sm:py-28">
