@@ -6,25 +6,14 @@
         <div class="flex items-center justify-between">
           <router-link
             to="#"
-            class="
-              text-2xl
-              font-bold
-              text-white
-              md:text-2xl
-              hover:text-indigo-900
-              cursor-pointer
-            "
+            class="text-2xl font-bold text-white cursor-pointer md:text-2xl hover:text-indigo-900"
             >iCanlk
           </router-link>
           <!-- Mobile menu button -->
           <div @click="toggleNav" class="flex md:hidden">
             <button
               type="button"
-              class="
-                text-white
-                hover:text-gray-400
-                focus:outline-none focus:text-gray-400
-              "
+              class="text-white hover:text-gray-400 focus:outline-none focus:text-gray-400"
             >
               <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
                 <path
@@ -39,27 +28,15 @@
         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
         <ul
           :class="showMenu ? 'flex' : 'hidden'"
-          class="
-            items-center
-            flex-col
-            mt-8
-            space-y-4
-            md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0
-          "
+          class="flex-col items-center mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
         >
-          <li class="text-white hover:text-indigo-400 text-xl font-semibold cursor-pointer">Home</li>
+          <li class="text-xl font-semibold text-white cursor-pointer hover:text-indigo-400">Home</li>
           <li>
             <div class="relative">
               <!-- Dropdown toggle button -->
               <button
                 @click="show = !show"
-                class="
-                  flex
-                  items-center
-                  text-indigo-100
-                  rounded-md
-                  focus:outline-none
-                "
+                class="flex items-center text-indigo-100 rounded-md focus:outline-none"
               >
                 <span class="mr-4 text-xl font-semibold cursor-pointer">Poilicies</span>
                 <svg
@@ -79,123 +56,58 @@
               <!-- Dropdown menu -->
               <div
                 v-show="show"
-                class="
-                  py-2
-                  mt-2
-                  bg-indigo-100
-                  rounded-md
-                  shadow-xl
-                  lg:absolute lg:right-0
-                  w-44
-                  cursor-pointer
-                "
+                class="py-2 mt-2 bg-indigo-100 rounded-md shadow-xl cursor-pointer lg:absolute lg:right-0 w-44"
               >
                 <router-link
                   to="/"
-                  class="
-                    block
-                    px-4
-                    py-2
-                    text-sm text-black
-                    hover:bg-gray-500 hover:text-indigo-100
-                    cursor-pointer
-                  "
+                  class="block px-4 py-2 text-sm text-black cursor-pointer hover:bg-gray-500 hover:text-indigo-100"
                 >
                   Payment Agreement
                 </router-link>
                 <router-link
                   to="/"
-                  class="
-                    block
-                    px-4
-                    py-2
-                    text-sm text-black
-                    hover:bg-gray-500 hover:text-indigo-100
-                    cursor-pointer
-                  "
+                  class="block px-4 py-2 text-sm text-black cursor-pointer hover:bg-gray-500 hover:text-indigo-100"
                 >
                   Privacy Agreement
                 </router-link>
                 <router-link
                   to="/"
-                  class="
-                    block
-                    px-4
-                    py-2
-                    text-sm text-black
-                    hover:bg-gray-500 hover:text-indigo-100
-                    cursor-pointer
-                  "
+                  class="block px-4 py-2 text-sm text-black cursor-pointer hover:bg-gray-500 hover:text-indigo-100"
                 >
                   Service Agreement
                 </router-link>
 
                 <router-link
                   to="/"
-                  class="
-                    block
-                    px-4
-                    py-2
-                    text-sm text-black
-                    hover:bg-gray-500 hover:text-indigo-100
-                    cursor-pointer
-                  "
+                  class="block px-4 py-2 text-sm text-black cursor-pointer hover:bg-gray-500 hover:text-indigo-100"
                 >
                   Withdraw Agreement
                 </router-link>
 
                 <router-link
                   to="/"
-                  class="
-                    block
-                    px-4
-                    py-2
-                    text-sm text-black
-                    hover:bg-gray-500 hover:text-indigo-100
-                    cursor-pointer
-                  "
+                  class="block px-4 py-2 text-sm text-black cursor-pointer hover:bg-gray-500 hover:text-indigo-100"
                 >
                   Account Purchase A
                 </router-link>
 
                 <router-link
                   to="/"
-                  class="
-                    block
-                    px-4
-                    py-2
-                    text-sm text-black
-                    hover:bg-gray-500 hover:text-indigo-100
-                    cursor-pointer
-                  "
+                  class="block px-4 py-2 text-sm text-black cursor-pointer hover:bg-gray-500 hover:text-indigo-100"
                 >
                   Privacy Policy
                 </router-link>
 
                 <router-link
                   to="/"
-                  class="
-                    block
-                    px-4
-                    py-2
-                    text-sm text-black
-                    hover:bg-gray-500 hover:text-indigo-100
-                    cursor-pointer
-                  "
+                  class="block px-4 py-2 text-sm text-black cursor-pointer hover:bg-gray-500 hover:text-indigo-100"
                 >
                   Refund & Return Policy
                 </router-link>
 
                 <router-link
                   to="/"
-                  class="
-                    block
-                    px-4
-                    py-2
-                    text-sm text-black
-                    hover:bg-gray-500 hover:text-indigo-100
-                    cursor-pointer
-                  "
+                  class="block px-4 py-2 text-sm text-black cursor-pointer hover:bg-gray-500 hover:text-indigo-100"
                 >
                   Terms of Service
                 </router-link>
@@ -203,7 +115,7 @@
               </div>
             </div>
           </li>
-          <li class="text-gray-100 hover:text-indigo-400 text-xl font-semibold cursor-pointer">Product</li>
+          <li class="text-xl font-semibold text-gray-100 cursor-pointer hover:text-indigo-400">Product</li>
         </ul>
       </nav>
     </div>
